@@ -10,7 +10,6 @@ At the moment version 2.0-SNAPSHOT has not been published to any public reposito
 In order to use it download the code and build it: mvn clean install
 
 #### Note:
-
 Some people can have problems with Zookeeper and ConnectionLoss Exception.
 It turned out that Java 7 (Oracle version) with OSX has a problem (https://issues.apache.org/jira/browse/ZOOKEEPER-1477)
 
@@ -18,12 +17,10 @@ to solve it add the following argument:
 **-Djava.nio.channels.spi.SelectorProvider=sun.nio.ch.KQueueSelectorProvider**
 
 ### Goals
-
 * start
 * stop
 
 ### Configuration
-
 * dataDirectory (default: ${project.build.directory}/zookeeperData/ )
 * port (default: 3000)
 * tickTime
