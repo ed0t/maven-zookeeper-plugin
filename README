@@ -1,4 +1,5 @@
 Maven Zookeeper Plugin
+=========================
 
 Forked from sfines/maven-zookeeper-plugin
 
@@ -15,7 +16,7 @@ It turned out that Java 7 (Oracle version) with OSX has a problem (https://issue
 to solve it add the following argument:
 -Djava.nio.channels.spi.SelectorProvider=sun.nio.ch.KQueueSelectorProvider
 
--- Goals
+Goals
 
 * start
 * stop
